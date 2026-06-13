@@ -1,0 +1,36 @@
+services:
+
+  backend:
+    build: ./backend
+    restart: unless-stopped
+    volumes:
+      - db_data:/data
+      - ./backend/checklists:/app/checklists:ro
+    environment:
+      - DB_PATH=/data/checklist.db
+    networks:
+      - internal
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/api/checklists')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  nginx:
+    build:
+      context: .
+      dockerfile: nginx/Dockerfile
+    restart: unless-stopped
+    ports:
+      - "80:80"
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - internal
+
+volumes:
+  db_data:
+
+networks:
+  internal:

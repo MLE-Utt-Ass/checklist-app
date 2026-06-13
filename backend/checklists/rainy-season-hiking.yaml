@@ -1,0 +1,281 @@
+id: rainy-season-hiking
+title: "Rainy Season Hiking Checklist"
+description: "Based on REI's Backpacking Checklist · Adapted for wet conditions"
+badge: "🏕️ Gear rental on-site: tent · sleeping bag · sleeping pad"
+sections:
+  - id: shelter
+    title: "Shelter & Comfort"
+    icon: "⛺"
+    items:
+      - id: tarp
+        label: "Tarp or ground cloth"
+        note: "Extra rain protection for vestibule or muddy ground"
+        tags: [rain]
+      - id: pillow
+        label: "Pillow (compressible or inflatable)"
+
+  - id: pack
+    title: "Pack & Carry"
+    icon: "🎒"
+    items:
+      - id: backpack
+        label: "Backpack (30–50 L)"
+      - id: rain-cover
+        label: "Pack rain cover"
+        note: "Fits over your pack to keep contents dry"
+        tags: [rain, essential]
+      - id: dry-bags
+        label: "Dry bags / waterproof stuff sacks"
+        note: "Use multiple sizes to organize and protect electronics, clothing, food"
+        tags: [rain]
+      - id: compression-sack
+        label: "Waterproof compression sacks for sleeping bag"
+        note: "Protects the rented sleeping bag"
+      - id: ziplock
+        label: "Ziplock bags (assorted sizes)"
+        note: "For documents, phone, snacks — cheap but essential backup"
+        tags: [rain]
+      - id: trekking-poles
+        label: "Trekking poles"
+        note: "Extra stability on slippery wet trails"
+
+  - id: clothing
+    title: "Clothing & Footwear"
+    icon: "👕"
+    items:
+      - id: base-layer
+        label: "Moisture-wicking base layer (top & bottom)"
+        note: "Synthetic or merino wool — never cotton in wet conditions"
+      - id: rain-jacket
+        label: "Waterproof rain jacket"
+        note: "Seam-sealed, with hood — your most important wet-weather layer"
+        tags: [rain, essential]
+      - id: rain-pants
+        label: "Waterproof rain pants"
+        tags: [rain]
+      - id: hiking-pants
+        label: "Quick-dry hiking pants / shorts (2 pairs)"
+      - id: hiking-shirts
+        label: "Hiking shirts (2–3, quick-dry)"
+      - id: boots
+        label: "Waterproof or water-resistant hiking boots"
+        note: "With ankle support for muddy, slippery trails"
+        tags: [rain]
+      - id: camp-shoes
+        label: "Camp shoes / sandals"
+        note: "To let boots and feet dry at camp"
+      - id: socks
+        label: "Wool or synthetic hiking socks (3+ pairs)"
+        note: "Always keep one pair dry in a sealed bag"
+      - id: leech-socks
+        label: "Leech socks"
+        note: "Fine-weave socks worn over regular socks to block leeches; pull up over trouser legs"
+        tags: [new, essential]
+      - id: gaiters
+        label: "Gaiters"
+        note: "Keeps mud, water, and leeches out of boots"
+        tags: [rain]
+      - id: rain-hat
+        label: "Waterproof hat / rain hat"
+        tags: [rain]
+      - id: gloves
+        label: "Lightweight gloves"
+        note: "Wet and cold = higher wind chill"
+      - id: underwear
+        label: "Underwear (3+ pairs, moisture-wicking)"
+
+  - id: kitchen
+    title: "Backcountry Kitchen"
+    icon: "🍳"
+    optional: true
+    items:
+      - id: stove
+        label: "Backpacking stove"
+        note: "Canister stoves work well in wind; bring a windscreen"
+        tags: [rain]
+      - id: fuel
+        label: "Fuel canister (full)"
+      - id: lighter
+        label: "Lighter + backup waterproof matches"
+        note: "Keep in waterproof container"
+        tags: [rain]
+      - id: cookset
+        label: "Pot / cookset"
+      - id: mug
+        label: "Mug / bowl"
+      - id: spork
+        label: "Spork or utensils"
+      - id: soap
+        label: "Pot scrubber & biodegradable soap"
+      - id: bear-canister
+        label: "Bear canister or hang bag for food storage"
+
+  - id: food
+    title: "Food & Water"
+    icon: "🥾"
+    items:
+      - id: meals
+        label: "Meals for each day + 1 extra day's food"
+        note: "Freeze-dried, dehydrated, or lightweight whole foods"
+      - id: snacks
+        label: "Trail snacks (bars, nuts, jerky, dried fruit)"
+      - id: water-bottles
+        label: "Water bottles (1 L × 2) or hydration reservoir"
+      - id: water-filter
+        label: "Water filter or purifier"
+        note: "Rain increases runoff and contamination risk"
+        tags: [essential]
+      - id: purification-tabs
+        label: "Water purification tablets (backup)"
+      - id: electrolytes
+        label: "Electrolyte packets"
+        note: "Easy to lose electrolytes even in cool, rainy conditions"
+
+  - id: navigation
+    title: "Navigation"
+    icon: "🗺️"
+    items:
+      - id: topo-map
+        label: "Topographic map (laminated or in dry bag)"
+        tags: [rain, essential]
+      - id: compass
+        label: "Compass"
+        tags: [essential]
+      - id: gps
+        label: "GPS device or smartphone with offline maps"
+        note: "Keep in waterproof case or bag"
+      - id: permits
+        label: "Trail permits & reservation confirmations (in waterproof sleeve)"
+
+  - id: lighting
+    title: "Lighting"
+    icon: "🔦"
+    items:
+      - id: headlamp
+        label: "Headlamp"
+        tags: [essential]
+      - id: batteries
+        label: "Extra batteries or USB-rechargeable headlamp + cable"
+        note: "Cold, wet conditions drain batteries faster"
+      - id: flashlight
+        label: "Backup flashlight or candle lantern"
+
+  - id: firstaid
+    title: "Emergency & First Aid"
+    icon: "🩹"
+    items:
+      - id: first-aid-kit
+        label: "First aid kit"
+        note: "Stored in a waterproof bag or case"
+        tags: [essential]
+      - id: medications
+        label: "Personal medications"
+      - id: blister
+        label: "Blister treatment (moleskin, blister bandages)"
+        note: "Wet feet = more blisters; check feet regularly"
+      - id: anti-itch
+        label: "Anti-itch / anti-histamine cream"
+        note: "For leech bites and insect bites"
+      - id: leech-tool
+        label: "Leech removal tool or card"
+        note: "Do not burn or salt leeches; slide a flat card under to detach"
+      - id: whistle
+        label: "Whistle"
+        tags: [essential]
+      - id: signal-mirror
+        label: "Signal mirror"
+        tags: [optional]
+      - id: plb
+        label: "Personal locator beacon (PLB) or satellite communicator"
+        note: "Especially important when visibility is low in bad weather"
+        tags: [optional]
+      - id: knife
+        label: "Knife or multi-tool"
+        tags: [optional]
+      - id: fire-starter
+        label: "Fire starter (waterproof matches, lighter, firestarter cubes)"
+        tags: [rain, optional]
+
+  - id: hygiene
+    title: "Health & Hygiene"
+    icon: "🧼"
+    items:
+      - id: sunscreen
+        label: "Sunscreen (SPF 30+)"
+        note: "UV still penetrates cloud cover"
+      - id: insect-repellent
+        label: "Insect repellent (DEET or permethrin-treated gear)"
+        note: "Mosquitoes thrive in rainy season; leeches are attracted to movement"
+        tags: [rain]
+      - id: biodegradable-soap
+        label: "Biodegradable soap & hand sanitizer"
+      - id: toothbrush
+        label: "Toothbrush & toothpaste"
+      - id: toilet-paper
+        label: "Toilet paper + trowel + waste bags"
+      - id: towel
+        label: "Microfiber towel (quick-dry, 2 if possible)"
+        tags: [rain]
+      - id: antifungal
+        label: "Anti-fungal foot powder or spray"
+        note: "Prevents trench foot and athlete's foot in constant wet conditions"
+        tags: [rain]
+      - id: lip-balm
+        label: "Lip balm (with SPF)"
+
+  - id: tools
+    title: "Tools & Repair"
+    icon: "🔧"
+    optional: true
+    items:
+      - id: duct-tape
+        label: "Duct tape (small roll)"
+      - id: seam-sealer
+        label: "Seam sealer / waterproofing spray for gear"
+        note: "Apply to jacket seams and boots before the trip"
+        tags: [rain]
+      - id: tent-repair
+        label: "Tent pole splint and patch kit (for rented tent)"
+      - id: tenacious-tape
+        label: "Gear repair tape (e.g. Tenacious Tape)"
+      - id: paracord
+        label: "Cord / paracord (10 m)"
+        note: "For hanging wet gear, clothes line, emergency repairs"
+      - id: safety-pins
+        label: "Safety pins & rubber bands (small pouch)"
+
+  - id: electronics
+    title: "Electronics"
+    icon: "📱"
+    items:
+      - id: phone
+        label: "Phone (fully charged)"
+      - id: phone-case
+        label: "Waterproof phone case or dry bag"
+        tags: [rain]
+      - id: power-bank
+        label: "Portable battery bank (power bank)"
+        note: "Cold and damp reduce battery life significantly"
+      - id: cables
+        label: "Charging cables (in waterproof bag)"
+      - id: camera
+        label: "Camera + rain cover or waterproof housing (optional)"
+
+  - id: personal
+    title: "Personal Items"
+    icon: "🪪"
+    items:
+      - id: photo-id
+        label: "Photo ID (in waterproof sleeve)"
+      - id: cash
+        label: "Cash & emergency credit card (in waterproof wallet)"
+      - id: emergency-contacts
+        label: "Emergency contact list (laminated or in dry bag)"
+      - id: health-card
+        label: "Health insurance card & emergency info"
+      - id: sunglasses
+        label: "Sunglasses"
+      - id: ear-plugs
+        label: "Ear plugs (for rain noise on tent)"
+      - id: notebook
+        label: "Notebook & pencil (waterproof paper optional)"
